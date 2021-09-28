@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "createCustomer": {
+      "payload": {
+        "name": "Reza Rahmati"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  customerdb:
+    container_name: customerdb
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "SwN12345678"
+    networks:
+      - myappnetwork
+    ports:
+      - "1433:1433"
+
+  portainer-client:
+    container_name: portainer-client
+    restart: always
+    ports:
+       - "9090:8000"
+       - "7000:9000"
+    volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+       - portainer_data:/data
+      
+  graphqlsample.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:Default=Server=customerdb,1433; Database=CustomerDb; Persist Security Info=True; User Id=sa; Password=SwN12345678;"  
+    depends_on:
+      - customerdb
+    networks:
+      - myappnetwork
+    ports:
+      - "8000:80"
+

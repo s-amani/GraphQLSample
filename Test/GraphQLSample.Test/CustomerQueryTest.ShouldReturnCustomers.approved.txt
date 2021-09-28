@@ -1,0 +1,78 @@
+﻿{
+  "data": {
+    "customer": [
+      {
+        "name": "Chad Ormond",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "2020-05-05T00:00:00.000\u002B04:30",
+        "modifiedAt": "2020-05-05T00:00:00.000\u002B04:30"
+      },
+      {
+        "name": "Reza Amini",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": false,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Roya Ahmadi",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      },
+      {
+        "name": "Reza Rahmati",
+        "code": null,
+        "status": "ACTIVE",
+        "isBlocked": true,
+        "createdAt": "0001-01-01T00:00:00.000Z",
+        "modifiedAt": "0001-01-01T00:00:00.000Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+version: '3.4'
+
+networks:
+  myappnetwork:
+    name: myappnetwork
+
+services:
+  customerdb:
+    image: "mcr.microsoft.com/mssql/server:2017-latest"
+
+  graphqlsample.web:
+    image: ${DOCKER_REGISTRY-}graphqlsampleweb
+    build:
+      context: .
+      dockerfile: Presentation/GraphQLSample.Web/Dockerfile
+
+  portainer-client:
+    image: portainer/portainer-ce
+
+volumes:
+  portainer_data: 

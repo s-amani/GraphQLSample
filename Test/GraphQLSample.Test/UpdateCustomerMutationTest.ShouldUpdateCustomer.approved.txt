@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "updateCustomer": {
+      "payload": {
+        "name": "Chad Ormond",
+        "status": "ACTIVE"
+      }
+    }
+  }
+}

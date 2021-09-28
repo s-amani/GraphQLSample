@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\GraphQLSample.Shared.Common\GraphQLSample.Shared.Common.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\GraphQLSample.Core.Infrastructure.DataLayer\GraphQLSample.Core.Infrastructure.DataLayer.csproj" />
+    <ProjectReference Include="..\GraphQLSample.Core.Infrastructure.Mapper\GraphQLSample.Core.Infrastructure.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
