@@ -1,4 +1,4 @@
-# GraphQL API to Create, Update, Delete and List entities from the Database.
+# A minimal implementation of GraphQL with CQRS architecture design pattern to Create, Update, Delete and List API.
 
 ## Requirements
 * C# 8 .NET Core 3.x or higher
