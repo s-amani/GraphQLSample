@@ -1,6 +1,6 @@
 # Create a GraphQL API to Create, Update, Delete and List entities from the Database.
 
-## Minimum requirements
+## Requirements
 * C# 8 .NET Core 3.x or higher
 * Publish the code in your Git repository (private repository)
 * The API should be exposed via GraphQL
